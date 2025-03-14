@@ -60,68 +60,6 @@ A Python application that combines a Command Line Interface (CLI) with Object-Re
         python main.py history
         ```
 
-# Number Guessing Game with CLI and ORM
-
-A Python application that combines a Command Line Interface (CLI) with Object-Relational Mapping (ORM). The game allows users to guess a number between 0 and 10 and stores their game history in a SQLite database.
-
-## Features
-
-- **CLI**: Interact with the game via the terminal.
-- **ORM**: Manage players and game history using SQLite.
-- **Gameplay**: Guess a number between 0 and 10.
-- **History**: View game history for each player.
-- **Error Handling**: Validates user input and handles errors gracefully.
-
-## How to Run
-
-### Prerequisites
-
-- Python 3.x installed on your system.
-- Basic knowledge of using the terminal or command prompt.
-
-### Steps to Run the Game
-
-1. **Clone the Repository (if applicable)**:
-    ```sh
-    git clone <repository-url>
-    cd <project-directory>
-    ```
-
-2. **Set Up the Virtual Environment**:
-    ```sh
-    python -m venv env
-    ```
-
-3. **Activate the Virtual Environment**:
-    - On macOS/Linux:
-        ```sh
-        source env/bin/activate
-        ```
-    - On Windows:
-        ```sh
-        .\env\Scripts\activate
-        ```
-
-4. **Install Dependencies**:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-5. **Run Database Migrations (if applicable)**:
-    ```sh
-    python models.py migrate
-    ```
-
-6. **Run the Game**:
-    - To play the game:
-        ```sh
-        python main.py play
-        ```
-    - To view game history:
-        ```sh
-        python main.py history
-        ```
-
 ## Project Structure
 
 ```
