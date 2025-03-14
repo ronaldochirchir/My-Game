@@ -60,17 +60,6 @@ A Python application that combines a Command Line Interface (CLI) with Object-Re
         python main.py history
         ```
 
-## Project Structure
-
-cli_orm_project/
-├── requirements.txt      # Contains project dependencies
-├── README.md             # Project description and instructions
-├── main.py               # Main entry point for the CLI application
-├── models.py             # Contains ORM models and database-related code
-├── migrations/           # Directory for database migrations (if applicable)
-└── game.db               # SQLite database file
-
-
 # Number Guessing Game with CLI and ORM
 
 A Python application that combines a Command Line Interface (CLI) with Object-Relational Mapping (ORM). The game allows users to guess a number between 0 and 10 and stores their game history in a SQLite database.
